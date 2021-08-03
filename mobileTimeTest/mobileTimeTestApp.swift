@@ -7,11 +7,16 @@
 
 import SwiftUI
 
+@available(iOS 15.0, *)
 @main
 struct mobileTimeTestApp: App {
+    @StateObject private var locationSettings = MapViewModel()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MapScreen()
+                .environmentObject(locationSettings)
+
         }
     }
 }

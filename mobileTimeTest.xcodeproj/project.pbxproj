@@ -8,17 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		8240236C26B861FC0029EBAB /* mobileTimeTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8240236B26B861FC0029EBAB /* mobileTimeTestApp.swift */; };
-		8240236E26B861FC0029EBAB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8240236D26B861FC0029EBAB /* ContentView.swift */; };
 		8240237026B861FD0029EBAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8240236F26B861FD0029EBAB /* Assets.xcassets */; };
 		8240237326B861FD0029EBAB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8240237226B861FD0029EBAB /* Preview Assets.xcassets */; };
+		8240237A26B862350029EBAB /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8240237926B862350029EBAB /* MapViewModel.swift */; };
+		8240237D26B8625E0029EBAB /* MapScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8240237B26B8625E0029EBAB /* MapScreen.swift */; };
+		8240237E26B8625E0029EBAB /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8240237C26B8625E0029EBAB /* MapView.swift */; };
+		8240238026B863210029EBAB /* SegmentedPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8240237F26B863210029EBAB /* SegmentedPickerView.swift */; };
+		8240238326B88AE60029EBAB /* FloatingSegmentedControl in Frameworks */ = {isa = PBXBuildFile; productRef = 8240238226B88AE60029EBAB /* FloatingSegmentedControl */; };
+		8240238626B8B4050029EBAB /* MapSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8240238526B8B4050029EBAB /* MapSearchView.swift */; };
+		8240238826B8B42F0029EBAB /* MapTopButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8240238726B8B42F0029EBAB /* MapTopButtonsView.swift */; };
+		8240238A26B8B47F0029EBAB /* MapSearchFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8240238926B8B47F0029EBAB /* MapSearchFormView.swift */; };
+		8240238C26B8B4A00029EBAB /* MapViewMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8240238B26B8B4A00029EBAB /* MapViewMenu.swift */; };
+		8240238E26B8B4CA0029EBAB /* MapViewToggles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8240238D26B8B4CA0029EBAB /* MapViewToggles.swift */; };
+		8240239026B8B5000029EBAB /* MapMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8240238F26B8B5000029EBAB /* MapMenuButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8240236826B861FC0029EBAB /* mobileTimeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mobileTimeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8240236B26B861FC0029EBAB /* mobileTimeTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mobileTimeTestApp.swift; sourceTree = "<group>"; };
-		8240236D26B861FC0029EBAB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8240236F26B861FD0029EBAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8240237226B861FD0029EBAB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8240237926B862350029EBAB /* MapViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		8240237B26B8625E0029EBAB /* MapScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapScreen.swift; sourceTree = "<group>"; };
+		8240237C26B8625E0029EBAB /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		8240237F26B863210029EBAB /* SegmentedPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentedPickerView.swift; sourceTree = "<group>"; };
+		8240238526B8B4050029EBAB /* MapSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapSearchView.swift; sourceTree = "<group>"; };
+		8240238726B8B42F0029EBAB /* MapTopButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTopButtonsView.swift; sourceTree = "<group>"; };
+		8240238926B8B47F0029EBAB /* MapSearchFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapSearchFormView.swift; sourceTree = "<group>"; };
+		8240238B26B8B4A00029EBAB /* MapViewMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewMenu.swift; sourceTree = "<group>"; };
+		8240238D26B8B4CA0029EBAB /* MapViewToggles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewToggles.swift; sourceTree = "<group>"; };
+		8240238F26B8B5000029EBAB /* MapMenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapMenuButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8240238326B88AE60029EBAB /* FloatingSegmentedControl in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,8 +71,10 @@
 		8240236A26B861FC0029EBAB /* mobileTimeTest */ = {
 			isa = PBXGroup;
 			children = (
+				8240238426B8B3D40029EBAB /* MapScreens */,
+				8240237F26B863210029EBAB /* SegmentedPickerView.swift */,
+				8240237926B862350029EBAB /* MapViewModel.swift */,
 				8240236B26B861FC0029EBAB /* mobileTimeTestApp.swift */,
-				8240236D26B861FC0029EBAB /* ContentView.swift */,
 				8240236F26B861FD0029EBAB /* Assets.xcassets */,
 				8240237126B861FD0029EBAB /* Preview Content */,
 			);
@@ -65,6 +87,21 @@
 				8240237226B861FD0029EBAB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8240238426B8B3D40029EBAB /* MapScreens */ = {
+			isa = PBXGroup;
+			children = (
+				8240237B26B8625E0029EBAB /* MapScreen.swift */,
+				8240238526B8B4050029EBAB /* MapSearchView.swift */,
+				8240238726B8B42F0029EBAB /* MapTopButtonsView.swift */,
+				8240238926B8B47F0029EBAB /* MapSearchFormView.swift */,
+				8240238B26B8B4A00029EBAB /* MapViewMenu.swift */,
+				8240238D26B8B4CA0029EBAB /* MapViewToggles.swift */,
+				8240238F26B8B5000029EBAB /* MapMenuButton.swift */,
+				8240237C26B8625E0029EBAB /* MapView.swift */,
+			);
+			path = MapScreens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +120,9 @@
 			dependencies = (
 			);
 			name = mobileTimeTest;
+			packageProductDependencies = (
+				8240238226B88AE60029EBAB /* FloatingSegmentedControl */,
+			);
 			productName = mobileTimeTest;
 			productReference = 8240236826B861FC0029EBAB /* mobileTimeTest.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +151,9 @@
 				Base,
 			);
 			mainGroup = 8240235F26B861FC0029EBAB;
+			packageReferences = (
+				8240238126B88AE60029EBAB /* XCRemoteSwiftPackageReference "FloatingSegmentedControl" */,
+			);
 			productRefGroup = 8240236926B861FC0029EBAB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +180,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8240236E26B861FC0029EBAB /* ContentView.swift in Sources */,
+				8240238826B8B42F0029EBAB /* MapTopButtonsView.swift in Sources */,
+				8240237D26B8625E0029EBAB /* MapScreen.swift in Sources */,
+				8240238C26B8B4A00029EBAB /* MapViewMenu.swift in Sources */,
+				8240237E26B8625E0029EBAB /* MapView.swift in Sources */,
+				8240238026B863210029EBAB /* SegmentedPickerView.swift in Sources */,
+				8240239026B8B5000029EBAB /* MapMenuButton.swift in Sources */,
 				8240236C26B861FC0029EBAB /* mobileTimeTestApp.swift in Sources */,
+				8240238A26B8B47F0029EBAB /* MapSearchFormView.swift in Sources */,
+				8240237A26B862350029EBAB /* MapViewModel.swift in Sources */,
+				8240238626B8B4050029EBAB /* MapSearchView.swift in Sources */,
+				8240238E26B8B4CA0029EBAB /* MapViewToggles.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +395,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8240238126B88AE60029EBAB /* XCRemoteSwiftPackageReference "FloatingSegmentedControl" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/darioGzlez/FloatingSegmentedControl.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8240238226B88AE60029EBAB /* FloatingSegmentedControl */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8240238126B88AE60029EBAB /* XCRemoteSwiftPackageReference "FloatingSegmentedControl" */;
+			productName = FloatingSegmentedControl;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8240236026B861FC0029EBAB /* Project object */;
 }
